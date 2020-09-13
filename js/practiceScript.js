@@ -5,13 +5,13 @@ const ul = document.querySelector('ul');
 
 form.addEventListener('submit', (e) => {
 	e.preventDefault();
-	const text = input.value;
+	const inputValue = input.value;
 	input.value = '';
 	const li = document.createElement('li');
-	li.textContent = text;
+	li.textContent = inputValue;
 	
 	const label = document.createElement('label');
-	label.textContent = 'confirmed';
+	label.textContent = 'Done';
 	const checkbox = document.createElement('input');
 	checkbox.type = 'checkbox';
 	label.appendChild(checkbox);
