@@ -1,11 +1,14 @@
 
 
-const form = document.getElementById('todoList');
+const form = document.querySelector('form');
 const input = form.querySelector('input');
-const ul = document.getElementById('listItems');    // initially I declared this variable
-												    // inside the event handler
-													// I moved it in order that it 
-													// could be accessed globally.
+
+
+const ul = document.querySelector('ul');    
+// initially I declared this variable
+// inside the event handler
+// I moved it in order that it 
+// could be accessed globally.
 
 
 
