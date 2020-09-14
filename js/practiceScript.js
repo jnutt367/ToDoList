@@ -10,6 +10,7 @@ form.addEventListener('submit', (e) => {
 	const li = document.createElement('li');
 	li.textContent = inputValue;
 	
+
 	const label = document.createElement('label');
 	label.textContent = 'Done';
 	const checkbox = document.createElement('input');
@@ -32,4 +33,6 @@ form.addEventListener('submit', (e) => {
 			ul.removeChild(li);
 		}
 	});
+	// this function says that if the events atrget is exactly equal 
+	// to button then remove the list item from the ul. BOOM!
 	
