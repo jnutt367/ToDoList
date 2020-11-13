@@ -70,7 +70,7 @@ button {
 header {
   text-align: center;
   background: linear-gradient(90deg, white, lightgreen, skyblue),
-              url('../images/header-bg.jpg') no-repeat;
+              url('../images/ideas.jpg') no-repeat;
               background-blend-mode: multiply;    
               background-size: cover;   
 }
